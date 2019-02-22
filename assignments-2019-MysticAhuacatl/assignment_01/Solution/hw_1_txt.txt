@@ -1,0 +1,91 @@
+Homework 1 Solutions
+====================
+
+1.1
+	a. The two commands:
+		cd   --   change the current working directory
+		pwd  --   print the name of the current working directory
+	b. Options:
+		`cd`
+		`cd $HOME`
+		`cd ~`
+		`cd /home/$USER`
+		`cd home/$USER`
+		`cd home/../home/../home/../home/../home/../home/$USER` (kind of a joke)
+	c.
+		i) absolute path
+		ii) `data/bases`
+	d. `/home`
+	e. Options:
+		1. manual page (`man <command_in_question>`)
+		2. help flags (`command_in_question --help` this works most of the time)
+		3. google (Do not underestimate how useful this is)
+	f.
+		Advantages:
+		   - Responsive
+		   - Powerful
+		   - Full control
+		   - Quick
+		Disadvantages:
+		   - Learning curve
+		   - Coffee shop owners think you are a cyber terrorist
+1.2
+	+------------------------------------------------------------+
+	|  01_shell/:						     |
+	|	    Documents data				     |
+	|							     |
+	|  01_shell/Documents:					     |
+	|	    work					     |
+	|							     |
+	|  01_shell/Documents/work:				     |
+	|           TODO.bak TODO.txt hints.txt lesson.txt 	     |
+	| 	    	     	      				     |
+	|  01_shell/data: 					     |
+	|	    notes					     |
+	|							     |
+	|  01_shell/data/notes:					     |
+	|	    TODO.txt 					     |
+	+------------------------------------------------------------+
+
+1.3
+	rm -rf /
+	^   ^^ ^
+	|   || +-- root directory / top level directory
+	|   |+---- force (no prompts) 
+	|   +----- recursive (until it reaches the end)
+	+--- Remove command
+
+1.4
+	a. 120 lines
+	   `wc planets_2.dat`
+	b. Besipin, Kamino, Malastare
+	   `sort planets.dat -k2 -nr | head -3`
+	c. Hoth, Mygeeto
+	   `grep ice planets.dat`
+	d. `cut -b 1 planets.dat | sort | uniq -c | sort -r`
+
+	   +-----+
+	   | 7 S |
+	   | 7 C |
+	   | 6 T |
+	   | 6 M |
+	   | 4 D |
+	   | 3 K |
+	   | 2 U |
+	   | 2 R |
+	   | 2 O |
+	   | 2 N |
+	   | 2 I |
+	   | 2 H |
+	   | 2 G |
+	   | 2 E |
+	   | 2 B |
+	   | 2 A |
+	   | 1 Z |
+	   | 1 Y |
+	   | 1 V |
+	   | 1 Q |
+	   | 1 P |
+	   | 1 J |
+	   | 1 F |
+	   +-----+

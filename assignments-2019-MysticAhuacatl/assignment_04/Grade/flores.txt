@@ -1,0 +1,38 @@
+; Homework 04
+; Grade: 22 / 36
+; The following will only show adjustments from full points
+; * indicates a bonus problem
+; - indicates a comment for the above problem
+; ``` enclosures indicate a code block
+
+@name: flores
+
+max:36
+
+4.1:
+	a,10: -5
+		- this function is printing the results not
+		- returning them
+	b,1:
+4.2:
+	a:
+		i: -1
+		- this function is printing the results not
+		- returning them
+		ii:
+	b:
+		i: -2
+		- this function is printing the results not
+		- returning them
+		ii:
+	c: 
+		i: -3
+		- this function is printing the results not
+		- returning them
+		ii: 
+4.3:
+	a:
+	b:
+	c: -3
+		- the code fails if either x or y are zero
+4.4*:

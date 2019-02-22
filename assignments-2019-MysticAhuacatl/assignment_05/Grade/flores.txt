@@ -1,0 +1,34 @@
+; Homework 05
+; Grade: 25 / 33
+; The following will only show adjustments from full points
+; * indicates a bonus problem
+; - indicates a comment for the above problem
+; ``` enclosures indicate a code block
+
+@name: flores
+
+max: 33
+
+5.1:
+	a,2:
+	b:
+		i,2:
+		ii,2:
+		iii,3:
+		iv,2: -2
+			- need to compute the expectation value not just the conjugate
+5.2:
+	a,1: 
+	b,1:
+	c,1: 
+	d:
+		i,2:
+		ii,2:
+	e,3: -2	
+		- does not translate the coordinates
+	f,6: -4
+		- try the code! it isn't translating anything!	
+5.3:
+	a,4:
+	b,2:
+	c,4*:
